@@ -1,10 +1,52 @@
-.venv/
+# Python bytecode and build artifacts
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tool caches and reports
 .pytest_cache/
+.mypy_cache/
 .ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
 .ipynb_checkpoints/
-*.dbc
+
+# Spark / Hadoop local artifacts
+metastore_db/
+spark-warehouse/
+derby.log
+*.eventlog
+spark-events/
+checkpoints/
+
+# Runtime logs
 *.log
-data/
+logs/
+
+# Project data (must stay out of VCS)
+data/raw/
+data/processed/
+data/models/
+data/tmp/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Databricks exports
+*.dbc
 
