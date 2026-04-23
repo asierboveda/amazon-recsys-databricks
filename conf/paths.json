@@ -1,0 +1,14 @@
+{
+  "raw_dir": "data/raw",
+  "processed_dir": "data/processed",
+  "models_dir": "data/models",
+  "checkpoints_dir": "data/models/checkpoints",
+  "reviews_input_glob": "data/raw/reviews_*.json.gz",
+  "metadata_input_glob": "data/raw/meta_*.json.gz",
+  "interactions_output": "data/processed/interactions",
+  "catalog_output": "data/processed/catalog",
+  "features_output": "data/processed/features",
+  "als_model_output": "data/models/als_model",
+  "user_indexer_output": "data/models/indexers/user_id_indexer",
+  "item_indexer_output": "data/models/indexers/item_id_indexer"
+}
