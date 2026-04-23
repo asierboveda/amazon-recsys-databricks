@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest>=8.2,<9.0
+ruff>=0.5,<1.0
+black>=24.4,<25.0
+ipykernel>=6.29,<7.0
+
